@@ -1,25 +1,5 @@
-/**
- * Solana Actions Example
- */
-
-import {
-  ActionPostResponse,
-  ACTIONS_CORS_HEADERS,
-  createPostResponse,
-  ActionGetResponse,
-  ActionPostRequest,
-} from "@solana/actions";
-import {
-  Authorized,
-  clusterApiUrl,
-  Connection,
-  Keypair,
-  LAMPORTS_PER_SOL,
-  PublicKey,
-  StakeProgram,
-  SystemProgram,
-  Transaction,
-} from "@solana/web3.js";
+import {ActionPostResponse,ACTIONS_CORS_HEADERS,createPostResponse,ActionGetResponse, ActionPostRequest} from "@solana/actions";
+import {Authorized, clusterApiUrl, Connection, Keypair, LAMPORTS_PER_SOL, PublicKey, StakeProgram, SystemProgram, Transaction} from "@solana/web3.js";
 import { DEFAULT_SOL_ADDRESS, DEFAULT_SOL_AMOUNT } from "./const";
 
 export const GET = async (req: Request) => {
