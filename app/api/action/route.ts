@@ -13,7 +13,7 @@ export const GET = async (req: Request) => {
     ).toString();
 
     const payload: ActionGetResponse = {
-      icon: "https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/451298361_431465133272016_4432019430255871475_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeHmrkNrk_3Z3VY_6O0H9ibVGkgJYCYrJZAaSAlgJislkLOM_LQ0w8bxx23aCCLkIkmoEV_ar3dk4rDGcTDiP4Gy&_nc_ohc=IPFSzIFZ1G0Q7kNvgFQF4Y0&_nc_ht=scontent.fceb1-5.fna&oh=00_AYDQZeMlkZ0dFmkKuUF1okMlfozWl-BkSVznF_p2Zu4Fog&oe=66A130F4",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLT7i1KaPG3JWvgdPnWK9h3h3IxUxumVQsEA&s",
       description: "''Palimos'' is a Filipino term that refers to begging or the act of asking for alms or charity, typically on the streets or in public places. It often involves individuals or groups asking passersby for money or food to meet their immediate needs. Palimos is a common sight in many urban areas in the Philippines, where poverty and economic hardships may drive people to seek assistance from others.",
       title: "Online Limos for Solana Breakpoint 2024",
       label: "Donate!", // this value will be ignored since `links.actions` exists
